@@ -228,6 +228,36 @@ a {
   animation: ctaPulse 2.5s ease-in-out infinite;
 }
 
+.cta-button--secondary {
+  background: transparent;
+  border: 2px solid var(--pink-400);
+  color: var(--pink-600);
+  box-shadow: none;
+  animation: none;
+}
+
+.cta-button--secondary::before {
+  background: var(--gradient-cta);
+}
+
+.cta-button--secondary:hover {
+  background: var(--gradient-cta);
+  color: var(--white);
+  border-color: transparent;
+  box-shadow: 0 8px 32px rgba(219,39,119,0.4);
+}
+
+.section-cta {
+  margin-top: 40px;
+}
+
+.final-cta__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
 /* ===== HERO SECTION ===== */
 .hero {
   min-height: 100vh;

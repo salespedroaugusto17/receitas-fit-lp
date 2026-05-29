@@ -40,7 +40,7 @@ function HeroSection() {
               que querem reduzir o inchaço sem abrir mão do sabor.
             </p>
             <div className="hero__cta-group">
-              <a href="#oferta" className="cta-button cta-button--pulse">
+              <a href="https://pay.cakto.com.br/u9jkm3r_904716" target="_blank" rel="noopener noreferrer" className="cta-button cta-button--pulse">
                 QUERO COMEÇAR AGORA
                 <span className="arrow">→</span>
               </a>
@@ -50,7 +50,7 @@ function HeroSection() {
                   <span className="hero__trust-icon"></span>
                   <span className="hero__trust-icon"></span>
                 </div>
-                Acesso imediato · PDF digital · Garantia total
+                Acesso imediato · Garantia total
               </div>
             </div>
           </div>
@@ -133,6 +133,12 @@ function PainSection() {
               <p className="pain__card-text">{pain.text}</p>
             </div>
           ))}
+        </div>
+        <div className="text-center section-cta animate-on-scroll">
+          <a href="https://pay.cakto.com.br/u9jkm3r_904716" target="_blank" rel="noopener noreferrer" className="cta-button cta-button--pulse">
+            QUERO MUDAR MINHA ROTINA
+            <span className="arrow">→</span>
+          </a>
         </div>
       </div>
     </section>
@@ -239,6 +245,12 @@ function RecipesSection() {
             ))}
           </div>
         </div>
+        <div className="text-center section-cta animate-on-scroll">
+          <a href="https://pay.cakto.com.br/u9jkm3r_904716" target="_blank" rel="noopener noreferrer" className="cta-button cta-button--pulse">
+            QUERO ESSAS RECEITAS
+            <span className="arrow">→</span>
+          </a>
+        </div>
       </div>
     </section>
   )
@@ -275,6 +287,12 @@ function BenefitsSection() {
               <p className="benefit__text">{b.text}</p>
             </div>
           ))}
+        </div>
+        <div className="text-center section-cta animate-on-scroll">
+          <a href="https://pay.cakto.com.br/u9jkm3r_904716" target="_blank" rel="noopener noreferrer" className="cta-button cta-button--pulse">
+            TRANSFORMAR MEU CORPO
+            <span className="arrow">→</span>
+          </a>
         </div>
       </div>
     </section>
@@ -421,7 +439,7 @@ function SocialProofSection() {
       initials: 'FL',
     },
     {
-      text: 'O melhor investimento que fiz em mim mesma. Por R$14,90 recebi um material que vale muito mais. Recomendo demais!',
+      text: 'O melhor investimento que fiz em mim mesma. Comprei por R$9,90 e valeu cada centavo! Recomendo demais!',
       name: 'Beatriz C.',
       info: 'Começou há 2 semanas',
       initials: 'BC',
@@ -497,11 +515,11 @@ function OfferSection() {
             <div className="offer__price-from">De R$ 47,00</div>
             <div className="offer__price">
               <span className="offer__price-currency">R$</span>
-              14
+              9
               <span className="offer__price-cents">,90</span>
             </div>
           </div>
-          <a href="#" className="cta-button cta-button--pulse">
+          <a href="https://pay.cakto.com.br/u9jkm3r_904716" target="_blank" rel="noopener noreferrer" className="cta-button cta-button--pulse">
             QUERO ME SENTIR MAIS LEVE
             <span className="arrow">→</span>
           </a>
@@ -591,7 +609,7 @@ function FinalCTASection() {
             O primeiro passo é sempre o mais importante. Faça por você.
           </p>
           <div className="animate-on-scroll">
-            <a href="#oferta" className="cta-button cta-button--pulse">
+            <a href="https://pay.cakto.com.br/u9jkm3r_904716" target="_blank" rel="noopener noreferrer" className="cta-button cta-button--pulse">
               COMEÇAR AGORA
               <span className="arrow">→</span>
             </a>
